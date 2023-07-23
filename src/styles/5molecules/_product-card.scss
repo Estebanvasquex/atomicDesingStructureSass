@@ -1,0 +1,28 @@
+// Tarjeta de producto
+.product-card {
+    @include flex(column);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+  
+    img {
+      max-width: 100%;
+    }
+  }
+  
+  // Estilos para el título del producto en la tarjeta
+  .product-card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  // Estilos para el precio del producto en la tarjeta
+  .product-card-price {
+    font-size: 16px;
+    color: $secondary-color;
+    margin-bottom: 10px;
+  }

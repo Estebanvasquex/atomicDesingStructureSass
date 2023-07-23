@@ -1,0 +1,60 @@
+// Reinicio de estilos para elementos HTML
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+ul,
+ol,
+li,
+form,
+input,
+textarea,
+button,
+article,
+section,
+header,
+footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+// Ajuste del borde de la caja de modelo
+* {
+  box-sizing: border-box;
+}
+
+// Ajuste de tamaño para el elemento "body"
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+// Estilos para enlaces
+a {
+  color:  $primary-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// Estilos para listas sin viñetas
+ul,
+ol {
+  list-style: none;
+}

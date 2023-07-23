@@ -1,0 +1,17 @@
+// Clase de utilidad para ocultar elementos
+.hide {
+    display: none !important;
+  }
+  
+  // Clase de utilidad para centrar elementos horizontalmente
+  .center-horizontal {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  // Clase de utilidad para centrar elementos verticalmente
+  .center-vertical {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }

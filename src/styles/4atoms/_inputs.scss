@@ -1,0 +1,21 @@
+// Estilo base para inputs
+
+input {
+    display: block;
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  
+    &:focus {
+      outline: none;
+      border-color: $primary-color;
+      box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3);
+    }
+  }
+  
+  // Input con error
+  .input-error {
+    border-color: $error-color;
+  }

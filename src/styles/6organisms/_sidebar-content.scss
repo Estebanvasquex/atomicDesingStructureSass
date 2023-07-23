@@ -1,0 +1,33 @@
+// Contenido de la barra lateral
+.sidebar-content {
+    @include flex(column, flex-start, flex-start);
+    padding: 20px;
+  
+    .sidebar-link {
+      color: #333;
+      text-decoration: none;
+      margin-bottom: 10px;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  
+  // Información del usuario en la barra lateral
+  .user-info {
+    display: flex;
+    align-items: center;
+  
+    .user-avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+  
+    .user-name {
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }

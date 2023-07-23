@@ -1,0 +1,36 @@
+
+/* Settings */
+@import "../src/styles/1settings/_colors.scss";
+@import "../src/styles/1settings/_typography.scss";
+@import "../src/styles/1settings/_sizes.scss";
+
+/* Tools */
+@import "../src/styles/2tools/_mixins.scss";
+@import "../src/styles/2tools/_functions.scss";
+
+/* Generic */
+@import "../src/styles/3generic/_reset.scss";
+@import "../src/styles/3generic/_utilities.scss";
+
+/* Atoms */
+@import "../src/styles/4atoms/_buttons.scss";
+@import "../src/styles/4atoms/_inputs.scss";
+@import "../src/styles/4atoms/_icons.scss";
+
+/* Molecules */
+@import "../src/styles/5molecules/_navbar.scss";
+@import "../src/styles/5molecules/_product-card.scss";
+@import "../src/styles/5molecules/_sidebar.scss";
+
+/* Organisms */
+@import "../src/styles/6organisms/_header.scss";
+@import "../src/styles/6organisms/_product-list.scss";
+@import "../src/styles/6organisms/_sidebar-content.scss";
+
+/* Templates */
+@import "../src/styles/7templetes/_homepage.scss";
+@import "../src/styles/7templetes/_product-page.scss";
+
+
+
+

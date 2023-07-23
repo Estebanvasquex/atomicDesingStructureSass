@@ -1,0 +1,18 @@
+// Barra de navegación
+.navbar {
+    @include flex(row, space-between, center);
+    height: 60px;
+    background-color: $primary-color;
+    color: #fff;
+  }
+  
+  // Estilos para enlaces en la barra de navegación
+  .navbar-link {
+    padding: 0 15px;
+    color: #fff;
+    text-decoration: none;
+  
+    &:hover {
+      text-decoration: underline;
+    }
+  }

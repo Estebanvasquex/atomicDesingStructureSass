@@ -1,0 +1,17 @@
+Settings: En esta carpeta, se definen todas las variables globales utilizadas en el proyecto, como colores, tipografía, tamaños, etc.
+
+Tools: Aquí se definen mixins y funciones que ayudan a generar estilos de forma más eficiente. Por ejemplo, mixins para flexbox, gradientes, bordes, etc.
+
+Generic: Contiene estilos generales para elementos HTML, como estilos de reinicio, caja de modelo, ajustes en etiquetas, etc.
+
+Atoms: Los átomos son los bloques de construcción más pequeños y reutilizables de la interfaz. Cada átomo representa un solo elemento, como un botón, un ícono, un input, etc.
+
+Molecules: Las moléculas son combinaciones de átomos que forman componentes más complejos y autónomos, como una barra de navegación, una tarjeta de producto, etc.
+
+Organisms: Los organismos son combinaciones de moléculas y átomos que forman secciones o bloques más grandes de la interfaz, como un encabezado, un pie de página, una barra lateral, etc.
+
+Templates: En esta carpeta, se crean las plantillas que estructuran el diseño y la distribución general de la página. Aquí se combinan diferentes organismos y moléculas para formar páginas completas.
+
+Pages: Esta carpeta contiene estilos específicos para cada página individual del sitio o aplicación.
+
+App.scss: Este archivo es el punto de entrada principal donde se importan todos los archivos de Sass mencionados anteriormente. Aquí es donde se compila toda la estructura de Atomic Design.

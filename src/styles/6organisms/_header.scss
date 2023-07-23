@@ -1,0 +1,29 @@
+// Encabezado
+.header {
+    @include flex(row, space-between, center);
+    height: 80px;
+    background-color: $primary-color;
+    color: #fff;
+    padding: 0 20px;
+  
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #fff;
+    }
+  
+    .navbar {
+      @include flex(row, space-between, center);
+  
+      .navbar-link {
+        padding: 0 15px;
+        color: #fff;
+        text-decoration: none;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }

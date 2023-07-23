@@ -1,0 +1,17 @@
+// Mixin para estilos de flexbox
+@mixin flex($direction: row, $justify-content: center, $align-items: center) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+  }
+  
+  // Mixin para estilos de gradiente lineal
+  @mixin linear-gradient($start-color, $end-color) {
+    background-image: linear-gradient(to right, $start-color, $end-color);
+  }
+  
+  // Mixin para estilos de borde redondeado
+  @mixin border-radius($radius: 4px) {
+    border-radius: $radius;
+  }

@@ -1,0 +1,18 @@
+// Barra lateral
+.sidebar {
+    @include flex(column);
+    width: 250px;
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+  
+  // Estilos para enlaces en la barra lateral
+  .sidebar-link {
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 10px;
+  
+    &:hover {
+      text-decoration: underline;
+    }
+  }
